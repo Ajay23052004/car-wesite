@@ -111,7 +111,9 @@ p{
 .features-item p{
     color:rgb(153, 152, 152);
 }
-
+.features-item h3{
+    text-transform:uppercase;
+}
 
 .icon{
     width:50px;
