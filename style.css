@@ -1,0 +1,252 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(255, 255, 255);
+}
+
+.container-fluid{
+    width:80%;
+
+
+}
+.container{
+    width:100vw;
+}
+.h1-m{
+    margin:4rem;
+}
+
+.navbar{
+    background-color: transparent;
+}
+.nav-item {
+   margin-left:20px;
+ 
+}
+.nav-link:hover{
+   transition-duration: 1s linear;
+    border-bottom: 2px solid rgb(53, 115, 230) ;
+}
+.nav-item .btn{
+    background:rgb(53, 115, 230) ;
+    color: white;
+}
+.nav-item .btn:hover{
+    border-bottom: none;
+}
+
+/*------------------hero-section-------------*/
+.hero{
+    display:flex;
+
+}
+.hero-text{
+    width:40vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+.hero-text .btn{
+    width:40%;
+}
+.hero-text .btn:hover{
+    background-color: transparent;
+    backdrop-filter: blur(30px);
+    color:rgb(53, 115, 230);
+}
+.hero-text h1{
+    font-family: 'Bruno Ace SC', cursive;
+    -webkit-text-stroke: 1px rgb(111, 165, 209);
+    -webkit-text-fill-color:rgb(111, 165, 209);
+    text-align: left;
+    text-shadow: -4px 3px;
+  letter-spacing: 20px;
+}
+.h1-style{
+    text-shadow: -4px 3px;
+    padding-top:4rem;
+    text-align: center;
+    font-family:'Bruno Ace SC', cursive ;
+    -webkit-text-stroke: 1px rgb(111, 165, 255);
+    -webkit-text-fill-color:rgb(111, 165, 209) ;
+   
+}
+.hero-text h1,.hero-text p{
+  
+    text-align: left;
+}
+p{
+    font-family: 'Castoro Titling', cursive;
+}
+.hero-img{
+    width:auto;
+}
+.hero-img img{
+    width:100%;
+    height:auto;
+}
+.nav-link{
+    font-family: 'Castoro Titling', cursive;
+}
+
+/*--------------------------Features-section--------------------*/
+.features-main{
+    text-align: center;
+    background-color: rgb(77, 74, 74);
+    margin:0;
+}
+.features{
+    padding:4rem;
+    display: flex;
+    width:100%;
+    height:max-content;
+    margin:0 auto;
+    color:white;
+}
+.features-item p{
+    color:rgb(153, 152, 152);
+}
+
+
+.icon{
+    width:50px;
+    margin:3rem;
+    
+}
+/*--------------------Pricing-Section---------------------*/
+
+
+
+
+
+/*------------------------Contact us From-------------*/
+.contact-us{
+   position: relative;
+   background-color: rgb(77, 74, 74);
+   padding-bottom: 4rem;
+}
+.div-1{
+    width:50%;
+    height:50%;
+    position:absolute;
+    top:30%;
+    left:25%;
+  
+}
+.form{
+  background-color: transparent;
+  backdrop-filter: blur(2px);
+    display: flex;
+    flex-direction: column;
+}
+
+.form label,input,textarea{
+    border-radius: 5px;
+    background: rgb(160, 158, 158);
+    opacity: 0.9;
+    backdrop-filter: blur(2px);
+    color:white;
+}
+input::placeholder,textarea::placeholder{
+    color: aliceblue;
+}
+.form label{
+    border-radius: 5px;
+    width:100%;
+   background-color:rgb(91, 89, 89);
+   opacity: 0.9;
+   margin: 1rem 0;
+   color: white;
+}
+
+.form .btn{
+    width:40%;
+    margin-top: 2rem;
+    margin-left: 25%;
+
+}
+
+/*----------------------Footer----------------------*/
+.footer{
+    position: relative;
+    background-color: rgb(187, 213, 205);
+    height:50vh;
+  margin:3rem auto;
+}
+.social-icon svg {
+    width:20px;
+    margin-right: 20px;
+}
+.social-icon h3{
+
+}
+.social-icon p{
+  
+    position: absolute;
+   bottom: 2rem;
+   left:50%;
+   transform: translate(-50%);
+   border-bottom: 2px solid black;
+}
+
+
+@media (max-width:990px)
+{
+    html{
+        font-size: 14px;
+    }
+    .container-fluid .logo img{
+        width:60px;
+    }
+    .hero{
+        display:flex;
+        flex-direction: column;
+    }
+    .hero-text{
+        text-align: left;
+        width:100%;
+    }
+    .hero-text h1,.hero-text p{
+        margin-bottom:3rem;
+       
+    }
+    .hero-text h1{
+        margin-top:2rem;
+        text-shadow: -3px 1px;
+        letter-spacing: 5px;
+    }
+    .h1-style{
+        letter-spacing: 5px;
+        text-shadow: -3px 1px;
+    }
+    .hero-text .btn{
+    
+        text-align: center;
+        width:30%;
+    }
+    .icon{
+        width:40px;
+        margin:2rem;
+        
+    }
+    .social-icon svg {
+        width:10px;
+        margin-right: 20px;
+    }
+    .footer{
+        height:20vh;
+    }
+
+}
+@media (max-width:400px){
+html{
+    font-size: 10px;
+}
+}
+
+
+
