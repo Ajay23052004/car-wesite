@@ -200,7 +200,7 @@ input::placeholder,textarea::placeholder{
 @media (max-width:990px)
 {
     html{
-        font-size: 15px;
+        font-size: 20px;
     }
     .container-fluid .logo img{
         width:60px;
@@ -245,10 +245,7 @@ input::placeholder,textarea::placeholder{
     }
 
 }
-@media (max-width:400px){
-html{
-    font-size: 14px;
-}
+
 }
 
 
