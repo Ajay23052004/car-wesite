@@ -41,6 +41,7 @@ body{
 /*------------------hero-section-------------*/
 .hero{
     display:flex;
+     margin-bottom: 4rem;
 
 }
 .hero-text{
