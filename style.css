@@ -198,7 +198,7 @@ input::placeholder,textarea::placeholder{
 @media (max-width:990px)
 {
     html{
-        font-size: 14px;
+        font-size: 15px;
     }
     .container-fluid .logo img{
         width:60px;
@@ -245,7 +245,7 @@ input::placeholder,textarea::placeholder{
 }
 @media (max-width:400px){
 html{
-    font-size: 10px;
+    font-size: 14px;
 }
 }
 
